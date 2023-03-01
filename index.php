@@ -1,4 +1,5 @@
-  elseif (OtpConfiguration::where('type', 'mimsms')->first()->value == 1) {
+  API URL (GET & POST) : http://sms.softcreation.tech/smsapi?api_key=(APIKEY)&type=text&contacts=(NUMBER)&senderid=(Approved Sender ID)&msg=(Message Content)
+elseif (OtpConfiguration::where('type', 'mimsms')->first()->value == 1) {
 
 
   $url = "http://sms.softcreation.tech/smsapi";
